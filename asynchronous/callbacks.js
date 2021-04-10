@@ -1,6 +1,3 @@
-
-// Documentation: http://callbackhell.com
-
 function squareCallback(value, callback) {
     setTimeout(() => {
       callback(value, value * value);
